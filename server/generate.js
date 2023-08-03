@@ -8,4 +8,4 @@ const address = toHex(keccak256(secp.secp256k1.getPublicKey(privateKey).slice(1)
 
 console.log("Private key:", privateKey);
 console.log("Public key:", publicKey);
-console.log("Address:", address);
+console.log("Address:", `0x${address}`);
